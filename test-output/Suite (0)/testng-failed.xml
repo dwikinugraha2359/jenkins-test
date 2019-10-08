@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (0)]">
+  <parameter name="baseUrl" value="https://leap-sandbox.2359media.net/nhggmelearning/"/>
+  <parameter name="password" value="password.123"/>
+  <parameter name="platformName" value="Mozilla"/>
+  <parameter name="username" value="nhgadmin"/>
+  <test thread-count="5" name="DutyHour(failed)">
+    <classes>
+      <class name="com.media2359.tests.a_DutyHour">
+        <methods>
+          <include name="screenShot"/>
+          <include name="beforeMethodStart"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="A_001_ViewContactUs"/>
+        </methods>
+      </class> <!-- com.media2359.tests.a_DutyHour -->
+    </classes>
+  </test> <!-- DutyHour(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

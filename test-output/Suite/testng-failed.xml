@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="btnLogBeforeLH" value="Log"/>
+  <parameter name="beforeStartTime" value="12:00 AM"/>
+  <parameter name="text2DS" value="Some rotations and statuses qualify for an extension of up to an additional  hours per week."/>
+  <parameter name="causeVio" value="Completing administrative work"/>
+  <parameter name="updateSuccessMessageVio" value="Update violation successfully"/>
+  <parameter name="afterStartDay" value="Wednesday"/>
+  <parameter name="password" value="password.123"/>
+  <parameter name="editDuration" value="1.75"/>
+  <parameter name="addAsgDef" value="On Call"/>
+  <parameter name="btnEnforce" value="Enforce"/>
+  <parameter name="beforeClockFormat" value="AM"/>
+  <parameter name="defaultDurationAfter" value="12:00"/>
+  <parameter name="addApplicableRules" value="80 Hours"/>
+  <parameter name="editFrom" value="Thu, 04/07/2019 02:00"/>
+  <parameter name="editTo" value="Thu, 04/07/2019 06:00"/>
+  <parameter name="btnStatusDeactivate" value="Deactivate"/>
+  <parameter name="dateSelected2" value="22 JUL"/>
+  <parameter name="listASGDef" value="Test Assignment 2;Annual Leave;Keith Assignment;Clinic Duty;On Call"/>
+  <parameter name="totalTable15m" value="672"/>
+  <parameter name="desirePageNumber" value="2"/>
+  <parameter name="addHexColor" value="09ed46"/>
+  <parameter name="statementDisclaimer" value="NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise."/>
+  <parameter name="totalTable30m" value="336"/>
+  <parameter name="titleConf" value="Configuration"/>
+  <parameter name="editStartDateTime" value="Sat, 27/07/2019 02:45"/>
+  <parameter name="editEndDateTime" value="Sat, 27/07/2019 04:30"/>
+  <parameter name="title80Hour" value="80 Hour"/>
+  <parameter name="afterMinute" value="00"/>
+  <parameter name="titleRnsModal" value="80 hours rule extension"/>
+  <parameter name="beforeEditAsg" value="On Call"/>
+  <parameter name="afterClockFormat" value="AM"/>
+  <parameter name="addSuccessMessageAD" value="Add assignment successfully"/>
+  <parameter name="updateSuccessMessageComment" value="Add comment successfully"/>
+  <parameter name="totalTable1h" value="168"/>
+  <parameter name="accountName" value="NHG, Administrator (Anaesthesiology)"/>
+  <parameter name="titleDH" value="Duty Hours"/>
+  <parameter name="adidPC" value="nhgadmin"/>
+  <parameter name="text3DS" value="Choose the qualified rotations &amp; statuses."/>
+  <parameter name="updateSuccessMessageBC" value="Update basic configuration successfully"/>
+  <parameter name="titleAsgDef" value="Assignment Definitions"/>
+  <parameter name="beforeEditEndDateTime" value="Fri, 26/07/2019 08:30"/>
+  <parameter name="text1DS" value="This rule states that one cannot work more than  hours per week, averaged over a 4 week period inclusive of all in-house call activities."/>
+  <parameter name="btnStatusActive" value="Active"/>
+  <parameter name="beforeMinute" value="00"/>
+  <parameter name="updateSuccessMessage" value="Update log successfully"/>
+  <parameter name="shortBreakItem" value="Short Break"/>
+  <parameter name="searchedRotation" value="AuditLogTest"/>
+  <parameter name="dateSelected" value="22 JUL"/>
+  <parameter name="addNoteAsgDef" value="Just Test The Note!"/>
+  <parameter name="afterHour" value="10"/>
+  <parameter name="platformName" value="Chrome"/>
+  <parameter name="statusEnforce" value="Enforced"/>
+  <parameter name="addAsgDefName" value="Test Add Assigment"/>
+  <parameter name="afterStartTime" value="10:00 AM"/>
+  <parameter name="beforeHour" value="12"/>
+  <parameter name="btnLogAfterLH" value="Logging"/>
+  <parameter name="defaultDurationBefore" value="24:00"/>
+  <parameter name="activeSuccessMessageRC" value="Active rule configuration successfully"/>
+  <parameter name="textComment" value="test comment"/>
+  <parameter name="afterHourOf80Hour" value="90"/>
+  <parameter name="statementFP" value="Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you."/>
+  <parameter name="beforeStartDay" value="Monday"/>
+  <parameter name="beforeExtOf80Hour" value="0"/>
+  <parameter name="beforeEditStartDateTime" value="Fri, 26/07/2019 03:45"/>
+  <parameter name="statusInactive" value="Inactive"/>
+  <parameter name="baseUrl" value="https://leap-sandbox.2359media.net/nhggmelearning/"/>
+  <parameter name="addAttribute" value="Ok After 24"/>
+  <parameter name="deactiveSuccessMessageRC" value="Deactive rule configuration successfully"/>
+  <parameter name="searchAsgDef" value="Common Curriculum"/>
+  <parameter name="afterExtOf80Hour" value="2"/>
+  <parameter name="eightyHourItem" value="80 Hours"/>
+  <parameter name="beforeHourOf80Hour" value="80"/>
+  <parameter name="searchedStatues" value="R3"/>
+  <parameter name="editAsg" value="Clinic Duty"/>
+  <parameter name="selectResident" value="Resident, 3"/>
+  <parameter name="logHourResident" value="Keith Assignment;AD to test COMMENTS;On Call"/>
+  <test thread-count="5" name="Duty Hour(failed)">
+    <classes>
+      <class name="com.media2359.tests.h_LogHour">
+        <methods>
+          <include name="beforeMethodStart"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="screenShot"/>
+          <include name="login"/>
+          <include name="H_001_viewLogHours"/>
+          <include name="H_008_viewLogDetails"/>
+          <include name="H_014_editLogLD" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.media2359.tests.h_LogHour -->
+    </classes>
+  </test> <!-- Duty Hour(failed) -->
+</suite> <!-- Failed suite [Suite] -->

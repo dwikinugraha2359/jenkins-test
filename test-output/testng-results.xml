@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="23" total="26" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[nhgadmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[NHG, Administrator (Anaesthesiology)]]>
+    </line>
+    <line>
+      <![CDATA[ 09 SEP - 15 SEP 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 09 SEP - 15 SEP 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 02 SEP - 08 SEP 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 26 AUG - 01 SEP 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 19 AUG - 25 AUG 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 12 AUG - 18 AUG 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 05 AUG - 11 AUG 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 29 JUL - 04 AUG 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[ 22 JUL - 28 JUL 2019|22 JUL;]]>
+    </line>
+    <line>
+      <![CDATA[Start 26/07/2019 03:45 AM]]>
+    </line>
+    <line>
+      <![CDATA[End 26/07/2019 08:30 AM]]>
+    </line>
+    <line>
+      <![CDATA[Assignment On Call]]>
+    </line>
+    <line>
+      <![CDATA[true]]>
+    </line>
+    <line>
+      <![CDATA[true]]>
+    </line>
+    <line>
+      <![CDATA[true]]>
+    </line>
+    <line>
+      <![CDATA[true]]>
+    </line>
+    <line>
+      <![CDATA[true]]>
+    </line>
+    <line>
+      <![CDATA[Clinic Duty]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[1.75 hours | 1.75]]>
+    </line>
+    <line>
+      <![CDATA[Update log successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clinic Duty]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[1.75 hours | 1.75]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70294" started-at="2019-09-13T09:31:55Z" finished-at="2019-09-13T09:33:05Z">
+    <groups>
+    </groups>
+    <test name="Authentication" duration-ms="4" started-at="2019-09-13T09:31:55Z" finished-at="2019-09-13T09:31:55Z">
+    </test> <!-- Authentication -->
+    <test name="Duty Hour" duration-ms="70266" started-at="2019-09-13T09:31:55Z" finished-at="2019-09-13T09:33:05Z">
+      <class name="com.media2359.tests.h_LogHour">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="setup" is-config="true" duration-ms="2239" started-at="2019-09-13T09:31:55Z" finished-at="2019-09-13T09:31:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="login" is-config="true" duration-ms="14000" started-at="2019-09-13T09:31:57Z" finished-at="2019-09-13T09:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://leap-sandbox.2359media.net/nhggmelearning/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nhgadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password.123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NHG, Administrator (Anaesthesiology)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[nhgadmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[NHG, Administrator (Anaesthesiology)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="beforeMethodStart" is-config="true" duration-ms="1" started-at="2019-09-13T09:32:11Z" finished-at="2019-09-13T09:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodStart -->
+        <test-method status="PASS" signature="H_001_viewLogHours(java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="H_001_viewLogHours" duration-ms="147" started-at="2019-09-13T09:32:11Z" finished-at="2019-09-13T09:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Assignment 2;Annual Leave;Keith Assignment;Clinic Duty;On Call]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- H_001_viewLogHours -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="screenShot" is-config="true" duration-ms="1" started-at="2019-09-13T09:32:11Z" finished-at="2019-09-13T09:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=H_001_viewLogHours status=SUCCESS method=h_LogHour.H_001_viewLogHours(java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="beforeMethodStart" is-config="true" duration-ms="0" started-at="2019-09-13T09:32:11Z" finished-at="2019-09-13T09:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodStart -->
+        <test-method status="PASS" signature="H_008_viewLogDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="H_008_viewLogDetails" duration-ms="11716" started-at="2019-09-13T09:32:11Z" depends-on-methods="com.media2359.tests.h_LogHour.H_001_viewLogHours" finished-at="2019-09-13T09:32:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Resident, 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22 JUL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clinic Duty]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Thu, 04/07/2019 02:00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thu, 04/07/2019 06:00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ 09 SEP - 15 SEP 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 09 SEP - 15 SEP 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 02 SEP - 08 SEP 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 26 AUG - 01 SEP 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 19 AUG - 25 AUG 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 12 AUG - 18 AUG 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 05 AUG - 11 AUG 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 29 JUL - 04 AUG 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[ 22 JUL - 28 JUL 2019|22 JUL;]]>
+            </line>
+            <line>
+              <![CDATA[Start 26/07/2019 03:45 AM]]>
+            </line>
+            <line>
+              <![CDATA[End 26/07/2019 08:30 AM]]>
+            </line>
+            <line>
+              <![CDATA[Assignment On Call]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- H_008_viewLogDetails -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="screenShot" is-config="true" duration-ms="1" started-at="2019-09-13T09:32:23Z" finished-at="2019-09-13T09:32:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=H_008_viewLogDetails status=SUCCESS method=h_LogHour.H_008_viewLogDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3] output= 09 SEP - 15 SEP 2019|22 JUL;]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="beforeMethodStart" is-config="true" duration-ms="1" started-at="2019-09-13T09:32:23Z" finished-at="2019-09-13T09:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodStart -->
+        <test-method status="PASS" signature="H_014_editLogLD(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="H_014_editLogLD" duration-ms="42048" started-at="2019-09-13T09:32:23Z" depends-on-methods="com.media2359.tests.h_LogHour.H_008_viewLogDetails" finished-at="2019-09-13T09:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Clinic Duty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[On Call]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sat, 27/07/2019 02:45]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fri, 26/07/2019 03:45]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sat, 27/07/2019 04:30]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fri, 26/07/2019 08:30]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.75]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Update log successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[true]]>
+            </line>
+            <line>
+              <![CDATA[true]]>
+            </line>
+            <line>
+              <![CDATA[true]]>
+            </line>
+            <line>
+              <![CDATA[true]]>
+            </line>
+            <line>
+              <![CDATA[true]]>
+            </line>
+            <line>
+              <![CDATA[Clinic Duty]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[1.75 hours | 1.75]]>
+            </line>
+            <line>
+              <![CDATA[Update log successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clinic Duty]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[1.75 hours | 1.75]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- H_014_editLogLD -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="screenShot" is-config="true" duration-ms="1" started-at="2019-09-13T09:33:05Z" finished-at="2019-09-13T09:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=H_014_editLogLD status=SUCCESS method=h_LogHour.H_014_editLogLD(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.h_LogHour@256216b3] output=true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.media2359.tests.h_LogHour@256216b3]" name="tearDown" is-config="true" duration-ms="90" started-at="2019-09-13T09:33:05Z" finished-at="2019-09-13T09:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.media2359.tests.h_LogHour -->
+    </test> <!-- Duty Hour -->
+  </suite> <!-- Suite -->
+</testng-results>

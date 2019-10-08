@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>TestNG:  Authentication</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Authentication</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 08 14:09:49 WIB 2019</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10336 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.media2359.tests.a_Authentication.A_001_validLogin()'><b>A_001_validLogin</b><br>Test class: com.media2359.tests.a_Authentication<br>Parameters: https://leap-sandbox.2359media.net/nhggmelearning/, nhgadmin, password.123, NHG, Administrator (Anaesthesiology)<br/>
+<a href="#Output-176683244" onClick='toggleBox("Output-176683244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-176683244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-176683244">
+nhgadmin<br/>
+<br/>
+NHG, Administrator (Anaesthesiology)<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.media2359.tests.a_Authentication@6df97b55</td></tr>
+<tr>
+<td title='com.media2359.tests.a_Authentication.A_002_ForgotPassword()'><b>A_002_ForgotPassword</b><br>Test class: com.media2359.tests.a_Authentication<br>Parameters: https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.<br/>
+<a href="#Output-258112787" onClick='toggleBox("Output-258112787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-258112787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-258112787">
+Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.media2359.tests.a_Authentication@6df97b55</td></tr>
+<tr>
+<td title='com.media2359.tests.a_Authentication.A_003_ViewDisclaimer()'><b>A_003_ViewDisclaimer</b><br>Test class: com.media2359.tests.a_Authentication<br>Parameters: https://leap-sandbox.2359media.net/nhggmelearning/, NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.<br/>
+<a href="#Output-762074108" onClick='toggleBox("Output-762074108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-762074108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-762074108">
+NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.media2359.tests.a_Authentication@6df97b55</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>TestNG:  Duty Hour</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Duty Hour</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 13 16:31:55 WIB 2019</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70266 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.media2359.tests.h_LogHour.H_001_viewLogHours()'><b>H_001_viewLogHours</b><br>Test class: com.media2359.tests.h_LogHour<br>Parameters: Test Assignment 2;Annual Leave;Keith Assignment;Clinic Duty;On Call</td>
+<td></td>
+<td>0</td>
+<td>com.media2359.tests.h_LogHour@256216b3</td></tr>
+<tr>
+<td title='com.media2359.tests.h_LogHour.H_008_viewLogDetails()'><b>H_008_viewLogDetails</b><br>Test class: com.media2359.tests.h_LogHour<br>Parameters: Resident, 3, 22 JUL, Clinic Duty, Thu, 04/07/2019 02:00, Thu, 04/07/2019 06:00<br/>
+<a href="#Output-1184124073" onClick='toggleBox("Output-1184124073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1184124073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1184124073">
+ 09 SEP - 15 SEP 2019|22 JUL;<br/>
+ 09 SEP - 15 SEP 2019|22 JUL;<br/>
+ 02 SEP - 08 SEP 2019|22 JUL;<br/>
+ 26 AUG - 01 SEP 2019|22 JUL;<br/>
+ 19 AUG - 25 AUG 2019|22 JUL;<br/>
+ 12 AUG - 18 AUG 2019|22 JUL;<br/>
+ 05 AUG - 11 AUG 2019|22 JUL;<br/>
+ 29 JUL - 04 AUG 2019|22 JUL;<br/>
+ 22 JUL - 28 JUL 2019|22 JUL;<br/>
+Start 26/07/2019 03:45 AM<br/>
+End 26/07/2019 08:30 AM<br/>
+Assignment On Call<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.media2359.tests.h_LogHour@256216b3</td></tr>
+<tr>
+<td title='com.media2359.tests.h_LogHour.H_014_editLogLD()'><b>H_014_editLogLD</b><br>Test class: com.media2359.tests.h_LogHour<br>Parameters: Clinic Duty, On Call, Sat, 27/07/2019 02:45, Fri, 26/07/2019 03:45, Sat, 27/07/2019 04:30, Fri, 26/07/2019 08:30, 1.75, Update log successfully<br/>
+<a href="#Output-615853374" onClick='toggleBox("Output-615853374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-615853374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-615853374">
+true<br/>
+true<br/>
+true<br/>
+true<br/>
+true<br/>
+Clinic Duty<br/>
+<br/>
+<br/>
+1.75 hours | 1.75<br/>
+Update log successfully<br/>
+Clinic Duty<br/>
+<br/>
+<br/>
+1.75 hours | 1.75<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.media2359.tests.h_LogHour@256216b3</td></tr>
+</table><p>
+</body>
+</html>
