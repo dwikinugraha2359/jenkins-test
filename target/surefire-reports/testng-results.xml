@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.]]>
-    </line>
-    <line>
-      <![CDATA[NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.]]>
-    </line>
     <line>
       <![CDATA[nhgadmin]]>
     </line>
@@ -17,12 +11,12 @@
       <![CDATA[NHG, Administrator (Anaesthesiology)]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="10336" started-at="2019-10-08T07:09:49Z" finished-at="2019-10-08T07:10:00Z">
+  <suite name="Suite" duration-ms="7138" started-at="2019-10-09T03:23:17Z" finished-at="2019-10-09T03:23:24Z">
     <groups>
     </groups>
-    <test name="Authentication" duration-ms="10336" started-at="2019-10-08T07:09:49Z" finished-at="2019-10-08T07:10:00Z">
+    <test name="Authentication" duration-ms="7138" started-at="2019-10-09T03:23:17Z" finished-at="2019-10-09T03:23:24Z">
       <class name="com.media2359.tests.a_Authentication">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.Boolean)[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="setup" is-config="true" duration-ms="2319" started-at="2019-10-08T07:09:49Z" finished-at="2019-10-08T07:09:52Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.Boolean)[pri:0, instance:com.media2359.tests.a_Authentication@3cbbc1e0]" name="setup" is-config="true" duration-ms="1748" started-at="2019-10-09T03:23:17Z" finished-at="2019-10-09T03:23:19Z">
           <params>
             <param index="0">
               <value>
@@ -38,79 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="beforeMethodStart" is-config="true" duration-ms="20" started-at="2019-10-08T07:09:52Z" finished-at="2019-10-08T07:09:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodStart -->
-        <test-method status="PASS" signature="A_002_ForgotPassword(java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="A_002_ForgotPassword" duration-ms="2758" started-at="2019-10-08T07:09:52Z" finished-at="2019-10-08T07:09:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://leap-sandbox.2359media.net/nhggmelearning/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- A_002_ForgotPassword -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="screenShot" is-config="true" duration-ms="1" started-at="2019-10-08T07:09:54Z" finished-at="2019-10-08T07:09:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=A_002_ForgotPassword status=SUCCESS method=a_Authentication.A_002_ForgotPassword(java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55] output=Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="beforeMethodStart" is-config="true" duration-ms="1" started-at="2019-10-08T07:09:54Z" finished-at="2019-10-08T07:09:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodStart -->
-        <test-method status="PASS" signature="A_003_ViewDisclaimer(java.lang.String, java.lang.String)[pri:1, instance:com.media2359.tests.a_Authentication@6df97b55]" name="A_003_ViewDisclaimer" duration-ms="704" started-at="2019-10-08T07:09:54Z" finished-at="2019-10-08T07:09:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://leap-sandbox.2359media.net/nhggmelearning/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- A_003_ViewDisclaimer -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="screenShot" is-config="true" duration-ms="0" started-at="2019-10-08T07:09:55Z" finished-at="2019-10-08T07:09:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=A_003_ViewDisclaimer status=SUCCESS method=a_Authentication.A_003_ViewDisclaimer(java.lang.String, java.lang.String)[pri:1, instance:com.media2359.tests.a_Authentication@6df97b55] output=NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="beforeMethodStart" is-config="true" duration-ms="1" started-at="2019-10-08T07:09:55Z" finished-at="2019-10-08T07:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodStart -->
-        <test-method status="PASS" signature="A_001_validLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.media2359.tests.a_Authentication@6df97b55]" name="A_001_validLogin" duration-ms="4423" started-at="2019-10-08T07:09:55Z" finished-at="2019-10-08T07:10:00Z">
+        <test-method status="PASS" signature="A_001_validLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.media2359.tests.a_Authentication@3cbbc1e0]" name="A_001_validLogin" duration-ms="5297" started-at="2019-10-09T03:23:19Z" finished-at="2019-10-09T03:23:24Z">
           <params>
             <param index="0">
               <value>
@@ -145,21 +67,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- A_001_validLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="tearDown" is-config="true" duration-ms="74" started-at="2019-10-08T07:10:00Z" finished-at="2019-10-08T07:10:00Z">
+        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.a_Authentication@3cbbc1e0]" name="beforeMethodStart" is-config="true" duration-ms="0" started-at="2019-10-09T03:23:19Z" finished-at="2019-10-09T03:23:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.a_Authentication@6df97b55]" name="screenShot" is-config="true" duration-ms="0" started-at="2019-10-08T07:10:00Z" finished-at="2019-10-08T07:10:00Z">
+        </test-method> <!-- beforeMethodStart -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.a_Authentication@3cbbc1e0]" name="screenShot" is-config="true" duration-ms="1" started-at="2019-10-09T03:23:24Z" finished-at="2019-10-09T03:23:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=A_001_validLogin status=SUCCESS method=a_Authentication.A_001_validLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.media2359.tests.a_Authentication@6df97b55] output=nhgadmin]]]>
+                <![CDATA[[TestResult name=A_001_validLogin status=SUCCESS method=a_Authentication.A_001_validLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.media2359.tests.a_Authentication@3cbbc1e0] output=nhgadmin]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.media2359.tests.a_Authentication@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="75" started-at="2019-10-09T03:23:24Z" finished-at="2019-10-09T03:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.media2359.tests.a_Authentication -->
     </test> <!-- Authentication -->
   </suite> <!-- Suite -->

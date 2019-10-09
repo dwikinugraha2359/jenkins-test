@@ -77,7 +77,7 @@ public class BaseTest {
     @BeforeMethod
     public void beforeMethodStart() throws IOException {
         // Clean download Directory on test result
-        utilsTest.cleanDownloadDir();
+        // utilsTest.cleanDownloadDir();
     }
 
     @AfterMethod // AfterMethod annotation - This method executes after every test execution
@@ -133,59 +133,4 @@ public class BaseTest {
         // Maximize Window
         driver.manage().window().maximize();
     }
-
-    // ------ to set download path ------
-    // private void initDriverChrome() throws MalformedURLException {
-    // System.out.println("Inside initDriver Chrome method");
-
-    // String downloadFilepath =
-    // "/Users/2359id/developments/office/GoldBell-Web-Automation/download/";
-    // HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-    // chromePrefs.put("profile.default_content_settings.popups", 0);
-    // // chromePrefs.put("download.default_directory", downloadFilepath);
-    // ChromeOptions options = new ChromeOptions();
-    // options.setExperimentalOption("prefs", chromePrefs);
-    // options.addArguments("--headless");
-    // options.addArguments("disable-gpu");
-    // DesiredCapabilities cap = DesiredCapabilities.chrome();
-    // cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-    // cap.setCapability(ChromeOptions.CAPABILITY, options);
-
-    // // Create a Chrome driver. All test classes use this.
-    // driver = new ChromeDriver(cap);
-    // // driver = new ChromeDriver();
-
-    // // Maximize Window
-    // driver.manage().window().maximize();
-    // }
-
-    // private void initDriverMozilla() throws MalformedURLException {
-    // System.out.println("Inside initDriver Mozilla method");
-
-    // // Setting Firefox driver path
-    // System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
-
-    // // Creating firefox profile
-    // FirefoxProfile profile = new FirefoxProfile();
-
-    // // Instructing firefox to use custom download location
-    // profile.setPreference("browser.download.folderList", 2);
-
-    // // Setting custom download directory
-    // profile.setPreference("browser.download.dir", downloadFilepath);
-
-    // // Skipping Save As dialog box for types of files with their MIME
-    // profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-    // "text/csv,application/java-archive,
-    // application/x-msexcel,application/excel,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml,application/vnd.microsoft.portable-executable");
-
-    // // Creating FirefoxOptions to set profile
-    // FirefoxOptions option = new FirefoxOptions();
-    // option.setProfile(profile);
-    // // Launching browser with desired capabilities
-    // driver = new FirefoxDriver(option);
-
-    // // Maximize Window
-    // driver.manage().window().maximize();
-    // }
 }

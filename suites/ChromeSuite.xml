@@ -25,8 +25,8 @@
             <class name="com.media2359.tests.a_Authentication">
                 <methods>
                     <!-- <exclude name="A_001_validLogin" /> -->
-                    <!-- <exclude name="A_002_ForgotPassword" /> -->
-                    <!-- <exclude name="A_003_ViewDisclaimer" /> -->
+                    <exclude name="A_002_ForgotPassword" />
+                    <exclude name="A_003_ViewDisclaimer" />
                 </methods>
             </class>
         </classes>
