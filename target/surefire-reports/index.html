@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.media2359.tests.a_Authentication" hash-for-method="A_003_ViewDisclaimer(https://leap-sandbox.2359media.net/nhggmelearning/, NG does not warrant or represent that your use o...)">A_003_ViewDisclaimer(https://leap-sandbox.2359media.net/nhggmelearning/, NG does not warrant or represent that your use o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +117,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.media2359.tests.a_Authentication" hash-for-method="A_001_validLogin(https://leap-sandbox.2359media.net/nhggmelearning/, nhgadmin, password.123, NHG, Administrator (Anae...)">A_001_validLogin(https://leap-sandbox.2359media.net/nhggmelearning/, nhgadmin, password.123, NHG, Administrator (Anae...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.media2359.tests.a_Authentication" hash-for-method="A_002_ForgotPassword(https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or e...)">A_002_ForgotPassword(https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or e...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -117,6 +136,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.media2359.tests.a_Authentication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_003_ViewDisclaimer(https://leap-sandbox.2359media.net/nhggmelearning/, NG does not warrant or represent that your use o...)">
+                  </a> <!-- A_003_ViewDisclaimer(https://leap-sandbox.2359media.net/nhggmelearning/, NG does not warrant or represent that your use o...) -->
+                  <span class="method-name">A_003_ViewDisclaimer</span>
+                  <span class="parameters">(https://leap-sandbox.2359media.net/nhggmelearning/, NG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.] but found [NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.]
+	at com.media2359.pages.BasePage.assertEquals(BasePage.java:234)
+	at com.media2359.pages.AuthenticationPage.openAndVerifyDisclaimer(AuthenticationPage.java:145)
+	at com.media2359.tests.a_Authentication.A_003_ViewDisclaimer(a_Authentication.java:79)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -129,6 +170,14 @@
                   </a> <!-- A_001_validLogin(https://leap-sandbox.2359media.net/nhggmelearning/, nhgadmin, password.123, NHG, Administrator (Anae...) -->
                   <span class="method-name">A_001_validLogin</span>
                   <span class="parameters">(https://leap-sandbox.2359media.net/nhggmelearning/, nhgadmin, password.123, NHG, Administrator (Anaesthesiology))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_002_ForgotPassword(https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or e...)">
+                  </a> <!-- A_002_ForgotPassword(https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or e...) -->
+                  <span class="method-name">A_002_ForgotPassword</span>
+                  <span class="parameters">(https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,19 +195,14 @@
   &lt;parameter name=&quot;headless&quot; value=&quot;true&quot;/&gt;
   &lt;parameter name=&quot;baseUrl&quot; value=&quot;https://leap-sandbox.2359media.net/nhggmelearning/&quot;/&gt;
   &lt;parameter name=&quot;password&quot; value=&quot;password.123&quot;/&gt;
-  &lt;parameter name=&quot;statementDisclaimer&quot; value=&quot;NHG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.&quot;/&gt;
+  &lt;parameter name=&quot;statementDisclaimer&quot; value=&quot;NG does not warrant or represent that your use of this Site/App will not infringe the rights of third parties. This Site/App may contain links to web sites maintained by other people and/or companies. NHG does not monitor the contents of these sites nor does NHG have the ability to control these sites. For these reasons, NHG explicitly disclaims any responsibility for the accuracy, contents, availability of information, copyright compliance, legality or decency of material contained in sites that are linked to or from this Site/App from third parties not associated with NHG and you irrevocably waive any claim against NHG with respect to such sites. NHG does not endorse or make any representations whatsoever as to the contents of third party sites included in this Site/App, whether or not such link was created by NHG. NHG, its staff and the writers of the articles, cannot be held responsible or be liable for any action or decision taken as a result of the information in this Site/App. Information accessed through this Site/App is provided on an “as is” and “as available” basis. NHG disclaims all warranties of any kind, whether express or implied, including but not limited to any warranty that:  • Your use of this Site/App will be error-free, free from computer viruses, secure, timely, uninterrupted or will meet your requirements; or • Any material you download from this Site/App or otherwise obtained through the use of this Site/App will not cause damage to or impede the functions of your computer system or result in loss of data; or • The contents is accurate, authentic, adequate, applicable, timely, complete or reliable.   None of the contents or any statement made on or obtained through this Site/App or any oral or written communication between you and NHG (including email or any other electronic communication) shall create or give rise to any warranty unless expressly stated otherwise.&quot;/&gt;
   &lt;parameter name=&quot;accountName&quot; value=&quot;NHG, Administrator (Anaesthesiology)&quot;/&gt;
   &lt;parameter name=&quot;adidPC&quot; value=&quot;nhgadmin&quot;/&gt;
   &lt;parameter name=&quot;statementFP&quot; value=&quot;Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.&quot;/&gt;
   &lt;parameter name=&quot;platformName&quot; value=&quot;Chrome&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Authentication&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.media2359.tests.a_Authentication&quot;&gt;
-        &lt;methods&gt;
-          &lt;exclude name=&quot;A_002_ForgotPassword&quot;/&gt;
-          &lt;exclude name=&quot;A_003_ViewDisclaimer&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.media2359.tests.a_Authentication --&gt;
+      &lt;class name=&quot;com.media2359.tests.a_Authentication&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Authentication --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -198,11 +242,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'A_001_validLogin')
 data.setCell(0, 2, 'com.media2359.tests.a_Authentication')
-data.setCell(0, 3, 5297);
+data.setCell(0, 3, 3842);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'A_002_ForgotPassword')
+data.setCell(1, 2, 'com.media2359.tests.a_Authentication')
+data.setCell(1, 3, 1193);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'A_003_ViewDisclaimer')
+data.setCell(2, 2, 'com.media2359.tests.a_Authentication')
+data.setCell(2, 3, 412);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -219,6 +271,12 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">A_002_ForgotPassword(https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or e...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">A_001_validLogin(https://leap-sandbox.2359media.net/nhggmelearning/, nhgadmin, password.123, NHG, Administrator (Anae...)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">nhgadmin</span>
@@ -230,18 +288,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.media2359.tests.a_Authentication</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">A_003_ViewDisclaimer</span>
-                <br/>
-                <span class="ignored-method-name">A_002_ForgotPassword</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -257,19 +306,45 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodStart</span>
-                <span class="method-start">1755 ms</span>
+                <span class="method-start">1576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">A_002_ForgotPassword(https://leap-sandbox.2359media.net/nhggmelearning/, Please contact ITD Helpdesk (1800-483-4357) or e...)</span>
+                <span class="method-start">1576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=A_002_ForgotPassword status=SUCCESS method=a_Authentication.A_002_ForgotPassword(ja...)</span>
+                <span class="method-start">2770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodStart</span>
+                <span class="method-start">2772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">A_003_ViewDisclaimer(https://leap-sandbox.2359media.net/nhggmelearning/, NG does not warrant or represent that your use o...)</span>
+                <span class="method-start">2773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=A_003_ViewDisclaimer status=FAILURE method=a_Authentication.A_003_ViewDisclaimer(ja...)</span>
+                <span class="method-start">3200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodStart</span>
+                <span class="method-start">4214 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">A_001_validLogin(https://leap-sandbox.2359media.net/nhggmelearning/, nhgadmin, password.123, NHG, Administrator (Anae...)</span>
-                <span class="method-start">1755 ms</span>
+                <span class="method-start">4214 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenShot([TestResult name=A_001_validLogin status=SUCCESS method=a_Authentication.A_001_validLogin(java.lang....)</span>
-                <span class="method-start">7052 ms</span>
+                <span class="method-start">8057 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7053 ms</span>
+                <span class="method-start">8057 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
